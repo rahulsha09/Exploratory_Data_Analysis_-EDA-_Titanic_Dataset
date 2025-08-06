@@ -35,9 +35,8 @@ Skew tests the shape of the distribution, and high skew suggests possible need f
 ## Outlier Detection (IQR rule)
 
 IQR is the range between 25th (Q1) and 75th (Q3) percentiles: IQR = Q3 - Q1
+IQR outlier detection helps flag data points much higher/lower than most others, useful for cleaning and quality control.
 Outliers are values:
 below Q1 - 1.5×IQR
-IQR outlier detection helps flag data points much higher/lower than most others, useful for cleaning and quality control.
 above Q3 + 1.5×IQR
----
 
